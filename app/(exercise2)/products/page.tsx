@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react'
-import Counter from './components/Counter'
-import SlowCompenent from './components/SlowCompenent'
+import Counter from '../components/Counter'
+import SlowCompenent from '../components/SlowCompenent'
 const page = async() => {
     const res=await fetch("https://dummyjson.com/products")
     const data=await res.json()
